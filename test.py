@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 print("Adios mundo cruel")
 
 
-
-
+x=np.linspace(-2.,2.,50)
+plt.plot(x**2,x)
+plt.savefig("hola")
 
